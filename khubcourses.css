@@ -1,0 +1,155 @@
+body {
+    margin:0;
+    padding:0;
+    background-color:var(--primary-color);
+}
+:root{
+    --primary-color: #ffffff;
+     --secondary-color: rgb(105, 105, 105);
+ }
+ .dark-mode{
+     --primary-color: #252525;
+     --secondary-color: rgb(136, 136, 136);
+ }
+html{
+    scroll-behavior: smooth;
+}
+.nav-link, h1, h3, h6, h5, p, .btn {
+    font-family: 'Poppins', sans-serif !important;
+}
+.navbar {
+    /*background-image: linear-gradient(to top, #cccccc, #e9e9e9, #ffffff)*/
+    background-color:var(--primary-color)!important;
+    border-bottom:3px rgb(90, 90, 90) solid;
+    box-shadow:0 3px 1em;
+}
+.banner-image {
+    background-image:url('pshs_clcdarker.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+#cbg {
+    background-color: rgb(9, 92, 92) !important;
+}
+.inv {
+    color:transparent;
+}
+#icon {
+    width:28px;
+    height:28px;
+    cursor:pointer;
+}
+.nav-link {
+    color:var(--secondary-color);
+}
+/*.nav-link:hover{
+    background-color:rgb(126, 126, 126);
+    border-radius:10px;
+}*/
+.navbar-brand {
+    color:var(--secondary-color);
+    font-family: 'Poppins', sans-serif !important;
+}
+.underline-hover {
+    display:inline-block;
+    position:relative;
+    padding-bottom:0.1rem;
+}
+.underline-hover::before {
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:0;
+    height:2px;
+    background-color:var(--secondary-color);
+    transition: width 0.25s ease-out;
+}
+.underline-hover:hover::before {
+    width:100%;
+}
+.bio {
+    background-image:url('biobg.jpg');
+    background-size: contain;
+    border:3px var(--primary-color) solid;
+    border-radius:8px;
+}
+.chem {
+    background-image:url('chembg.jpg');
+    background-size:contain;
+    border:3px var(--primary-color) solid;
+    border-radius:8px;
+}
+.physics {
+    background-image:url('p6bg.jpg');
+    background-size:contain;
+    border:3px var(--primary-color) solid;
+    border-radius:8px;
+}
+.cs {
+    background-image:url('csbg.jpg');
+    background-size:contain;
+    border:3px var(--primary-color) solid;
+    border-radius:8px;
+}
+.eng {
+    background-image:url('engbg.jpg');
+    background-size:contain;
+    border:3px var(--primary-color) solid;
+    border-radius:8px;
+}
+.fil {
+    background-image:url('filbg.jpg');
+    background-size:contain;
+    border:3px var(--primary-color) solid;
+    border-radius:8px;
+}
+.math {
+    background-image:url('mathbg.jpg');
+    background-size:contain;
+    border:3px var(--primary-color) solid;
+    border-radius:8px;
+}
+.stat {
+    background-image:url('statbg.jpg');
+    background-size:contain;
+    border:3px var(--primary-color) solid;
+    border-radius:8px;
+}
+.music {
+    background-image:url('musicbg.jpg');
+    background-size:contain;
+    border:3px var(--primary-color) solid;
+    border-radius:8px;
+}
+.health {
+    background-image:url('healthbg.jpg');
+    background-size:contain;
+    border:3px var(--primary-color) solid;
+    border-radius:8px;
+}
+.ve {
+    background-image:url('vebg.jpg');
+    background-size:contain;
+    border:3px var(--primary-color) solid;
+    border-radius:8px;
+}
+.pe {
+    background-image:url('pebg.jpg');
+    background-size:contain;
+    border:3px var(--primary-color) solid;
+    border-radius:8px;
+}
+.socsci {
+    background-image:url('ssbg.jpg');
+    background-size:contain;
+    border:3px var(--primary-color) solid;
+    border-radius:8px;
+}
+.hr {
+    background-image:url('hr_bg.jpg');
+    background-size:contain;
+    border:3px var(--primary-color) solid;
+    border-radius:8px;
+}

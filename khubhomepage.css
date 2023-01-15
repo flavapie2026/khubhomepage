@@ -1,0 +1,106 @@
+body {
+    padding:0;
+    margin:0;
+    background-color:var(--primary-color);
+}
+:root{
+   --primary-color: #ffffff;
+    --secondary-color: rgb(105, 105, 105);
+}
+.dark-mode{
+    --primary-color: #252525;
+    --secondary-color: rgb(136, 136, 136);
+}
+html {
+    scroll-behavior: smooth;
+}
+.underline-hover {
+    display:inline-block;
+    position:relative;
+    padding-bottom:0.1rem;
+}
+.underline-hover::before {
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:0;
+    height:2px;
+    background-color:var(--secondary-color);
+    transition: width 0.25s ease-out;
+}
+.underline-hover:hover::before {
+    width:100%;
+}
+.banner-image {
+    background-image:url('PSHS_CLC\ -\ Copy.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    /*background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url('pshs_clc.jpg');*/
+    color:white;
+}
+/*.banner-image::before {
+    content:"";
+    position:absolute;
+    top:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.6);
+}*/
+/*h1{
+    background-color:rgb(94, 92, 92);
+    border-radius:6px;
+    padding:5px;
+    opacity: 75%;
+}*/
+.nav-link, h1, h3, p, .btn {
+    font-family: 'Poppins', sans-serif !important;
+}
+.navbar {
+    /*background-image: linear-gradient(to top, var(--primary-color), var(--secondary-color), #9b9b9b);*/
+    background-color:var(--primary-color)!important;
+    border-bottom:3px rgb(90, 90, 90) solid;
+    box-shadow:0 3px 1em;
+}
+#annc, #timeline, #course {
+    background-color: rgb(9, 92, 92) !important;
+}
+.bg-secondary {
+    background-color:rgb(105, 105, 105) !important;
+}
+div section img {
+    opacity:30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/*.dark {
+    width:75px;
+    height:75px;
+    background-color: #ffffff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    box-shadow:2px 2px 10px rgba(0,0,0,0.5);
+    position:fixed;
+    right:30px;
+    bottom:30px;
+}*/
+#icon {
+    width:28px;
+    height:28px;
+    cursor:pointer;
+}
+.nav-link {
+    color:var(--secondary-color);
+}
+/*.nav-link:hover{
+    background-color:rgb(126, 126, 126);
+    border-radius:10px;
+}*/
+.navbar-brand {
+    color:var(--secondary-color);
+    font-family: 'Poppins', sans-serif !important;
+}
